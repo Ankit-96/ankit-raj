@@ -1,4 +1,4 @@
-import { work } from '../../content/work'
+import { work } from '../../content/work.content'
 import SectionTitle from '../ui/SectionTitle'
 import Link from '../ui/Link'
 

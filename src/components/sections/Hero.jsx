@@ -1,4 +1,4 @@
-import { profile } from '../../content/profile'
+import { profile } from '../../content/profile.content'
 import Button from '../ui/Button'
 import Link from '../ui/Link'
 

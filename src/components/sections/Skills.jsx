@@ -1,4 +1,4 @@
-import { skillGroups } from '../../content/skills'
+import { skillGroups } from '../../content/skills.content'
 import SectionTitle from '../ui/SectionTitle'
 
 export default function Skills() {

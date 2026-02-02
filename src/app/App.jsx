@@ -1,6 +1,7 @@
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
 import Container from '../components/layout/Container'
+
 import Hero from '../components/sections/Hero'
 import About from '../components/sections/About'
 import Work from '../components/sections/Work'
@@ -11,8 +12,10 @@ export default function App() {
 	return (
 		<>
 			<Header />
+
 			<main>
 				<Hero />
+
 				<Container>
 					<About />
 					<Work />
@@ -20,6 +23,7 @@ export default function App() {
 					<Contact />
 				</Container>
 			</main>
+
 			<Footer />
 		</>
 	)
