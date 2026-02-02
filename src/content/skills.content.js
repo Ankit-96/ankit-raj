@@ -1,15 +1,16 @@
-// Skill groupings (data only)
-export const skillGroups = [
+const skillGroups = [
 	{
-		title: 'AI & ML',
-		items: ['LLMs', 'RAG', 'Prompt Engineering', 'Vector DBs'],
+		group: 'AI & Platforms',
+		skills: ['Generative AI', 'AI Platform Development', 'Enterprise Systems'],
 	},
 	{
-		title: 'Frontend',
-		items: ['React', 'TypeScript', 'CSS', 'Vite'],
+		group: 'Full-Stack Engineering',
+		skills: ['React', 'Node.js', 'Python', 'SQL'],
 	},
 	{
-		title: 'Backend & Platform',
-		items: ['Node.js', 'Python', 'APIs', 'Databases'],
+		group: 'Infrastructure',
+		skills: ['Docker', 'Kubernetes', 'REST APIs', 'Git'],
 	},
 ]
+
+export default skillGroups

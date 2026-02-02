@@ -2,7 +2,6 @@ const profile = {
 	name: 'Ankit Raj',
 	title: 'Senior Advisor | GenAI Full-Stack Engineer',
 	subtitle: 'Enterprise AI Platforms · Audit, Risk & Compliance',
-
 	location: 'Bengaluru, India',
 
 	summary: [

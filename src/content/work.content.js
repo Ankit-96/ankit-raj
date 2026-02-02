@@ -1,19 +1,25 @@
-// Selected work (data only, no JSX)
-export const work = [
+const work = [
 	{
-		id: '1',
-		title: 'Project Alpha',
-		description: 'Enterprise-scale GenAI platform for document intelligence.',
-		tags: ['GenAI', 'React', 'Node'],
-		href: '#',
-		year: '2024',
+		title: 'Enterprise Audit Planning Platform',
+		year: '2023–Present',
+		description:
+			'AI-enabled platform supporting audit planning and execution workflows, designed for enterprise governance use-cases.',
+		tags: ['GenAI', 'Enterprise Platform', 'Audit'],
 	},
 	{
-		id: '2',
-		title: 'Project Beta',
-		description: 'Full-stack platform for internal tooling and workflows.',
-		tags: ['Full-stack', 'TypeScript', 'PostgreSQL'],
-		href: '#',
-		year: '2024',
+		title: 'Risk & Compliance Intelligence Systems',
+		year: '2021–2023',
+		description:
+			'Workflow-driven systems integrating structured data and automation to improve decisioning across risk and compliance functions.',
+		tags: ['Risk', 'Compliance', 'Automation'],
+	},
+	{
+		title: 'Resource & Capacity Management Platform',
+		year: '2023–Present',
+		description:
+			'Platform improving visibility and allocation workflows, enabling better planning and coordination across teams.',
+		tags: ['Resource Mgmt', 'Governance', 'Platform'],
 	},
 ]
+
+export default work

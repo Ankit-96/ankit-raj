@@ -169,3 +169,60 @@ header nav {
 .btn--primary:hover {
 	opacity: 0.9;
 }
+
+.work-list {
+	display: grid;
+	gap: 16px;
+}
+
+.work-card {
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 12px;
+	padding: 16px;
+	background: #fff;
+}
+
+.work-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 12px;
+}
+
+.work-year {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 0.9rem;
+}
+
+.tag-row {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.tag {
+	font-size: 0.85rem;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: rgba(0, 0, 0, 0.06);
+}
+
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 16px;
+}
+
+.skill-group {
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 12px;
+	padding: 16px;
+	background: #fff;
+}
+
+.contact-links {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+}

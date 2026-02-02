@@ -1,26 +1,21 @@
-import { profile } from '../../content/profile.content'
+import profile from '../../content/profile.content'
 import SectionTitle from '../ui/SectionTitle'
-import Link from '../ui/Link'
 
 export default function Contact() {
+	const links = profile.links || {}
+
 	return (
-		<section className='section contact' aria-labelledby='contact-heading'>
-			<SectionTitle
-				id='contact'
-				title='Contact'
-				subtitle='Reach out for collaboration or inquiries.'
-			/>
+		<section id='contact'>
+			<SectionTitle title='Contact' subtitle='Best ways to reach me.' />
+
 			<div className='contact-links'>
-				{profile.links.map(link => (
-					<Link
-						key={link.label}
-						href={link.href}
-						external={link.external}
-						className='contact-link'
-					>
-						{link.label}
-					</Link>
-				))}
+				<a href={links.linkedin} target='_blank' rel='noreferrer'>
+					LinkedIn
+				</a>
+				<a href={links.github} target='_blank' rel='noreferrer'>
+					GitHub
+				</a>
+				<a href={links.email}>Email</a>
 			</div>
 		</section>
 	)

@@ -1,21 +1,18 @@
-import { skillGroups } from '../../content/skills.content'
+import skillGroups from '../../content/skills.content'
 import SectionTitle from '../ui/SectionTitle'
 
 export default function Skills() {
 	return (
-		<section className='section skills' aria-labelledby='skills-heading'>
-			<SectionTitle
-				id='skills'
-				title='Skills'
-				subtitle='Core areas and technologies.'
-			/>
+		<section id='skills'>
+			<SectionTitle title='Skills' subtitle='Core areas of strength.' />
+
 			<div className='skills-grid'>
 				{skillGroups.map(group => (
-					<div key={group.title} className='skill-group'>
-						<h3>{group.title}</h3>
+					<div key={group.group} className='skill-group'>
+						<h4>{group.group}</h4>
 						<ul>
-							{group.items.map(item => (
-								<li key={item}>{item}</li>
+							{group.skills.map(s => (
+								<li key={s}>{s}</li>
 							))}
 						</ul>
 					</div>
