@@ -1,24 +1,24 @@
 const work = [
 	{
-		title: 'Enterprise Audit Planning Platform',
+		title: 'Audit Planning & Execution Platform',
 		year: '2023–Present',
 		description:
-			'AI-enabled platform supporting audit planning and execution workflows, designed for enterprise governance use-cases.',
-		tags: ['GenAI', 'Enterprise Platform', 'Audit'],
+			'Built and enhanced an enterprise web platform that streamlines audit planning, execution workflows, and operational visibility for global stakeholders.',
+		tags: ['Enterprise Platform', 'Workflow', 'Audit'],
 	},
 	{
-		title: 'Risk & Compliance Intelligence Systems',
+		title: 'AI-Assisted Risk & Compliance Workflows',
 		year: '2021–2023',
 		description:
-			'Workflow-driven systems integrating structured data and automation to improve decisioning across risk and compliance functions.',
-		tags: ['Risk', 'Compliance', 'Automation'],
+			'Integrated AI-enabled assistance into workflow-driven systems to improve governance, reduce manual effort, and support faster decision-making.',
+		tags: ['GenAI', 'Risk', 'Compliance'],
 	},
 	{
-		title: 'Resource & Capacity Management Platform',
+		title: 'Resource & Capacity Governance Platform',
 		year: '2023–Present',
 		description:
-			'Platform improving visibility and allocation workflows, enabling better planning and coordination across teams.',
-		tags: ['Resource Mgmt', 'Governance', 'Platform'],
+			'Developed platform capabilities to improve resource visibility and allocation flows, supporting planning and coordination across teams.',
+		tags: ['Governance', 'Resource Mgmt', 'Platform'],
 	},
 ]
 
