@@ -1,7 +1,5 @@
-import work from "../../content/work.content";
+import workItems from "../../content/work.content";
 import SectionTitle from "../ui/SectionTitle";
-import Card from "../ui/Card";
-import Tag from "../ui/Tag";
 
 export default function Work() {
   return (
@@ -11,22 +9,24 @@ export default function Work() {
         subtitle="Enterprise platforms built with embedded GenAI and workflow intelligence."
       />
 
-      <div className="work-grid">
-        {work.map((item) => (
-          <Card key={item.title}>
-            <div className="work-header">
-              <h3>{item.title}</h3>
+      <div className="work-list">
+        {workItems.map((item, idx) => (
+          <article key={`${item.title}-${idx}`} className="work-card">
+            <div className="work-head">
+              <h4>{item.title}</h4>
               <span className="work-year">{item.year}</span>
             </div>
 
-            <p>{item.description}</p>
+            <p className="work-desc">{item.description}</p>
 
-            <div className="work-tags">
-              {item.tags.map((tag) => (
-                <Tag key={tag}>{tag}</Tag>
+            <div className="tag-row">
+              {item.tags?.map((t) => (
+                <span key={t} className="tag">
+                  {t}
+                </span>
               ))}
             </div>
-          </Card>
+          </article>
         ))}
       </div>
     </section>
